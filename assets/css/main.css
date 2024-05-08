@@ -373,6 +373,13 @@ section {
     color: #000;
   }
 
+  /* Media query for phones targeting a specific ID */
+@media only screen and (max-width: 400px) {
+  #afiliacion {
+    flex-direction: column;
+  }
+}
+
   .navbar .dropdown ul {
     display: block;
     position: absolute;
